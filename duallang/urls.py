@@ -1,8 +1,7 @@
-from django.conf.urls import patterns, url
-from django.utils.translation import ugettext_lazy as _
+from django.urls import path, re_path
+from django.utils.translation import gettext_lazy as _
+from duallang.views import landing
 
-from views import landing
-
-urlpatterns = patterns('faq.views',
-    url(_(r'^dual_language/$'), landing, name='duallang_landing'),
-)
+urlpatterns = [
+    re_path(_(r'^dual_language/$'), landing, name='duallang_landing'),
+]

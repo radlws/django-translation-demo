@@ -1,4 +1,3 @@
-{% load url from future %}
 {% load i18n %}
 
 <!DOCTYPE html>
@@ -47,7 +46,7 @@
                                 <a href="#">{% trans "Corporate Information" %}</a>
                             </li>
                             <li>
-                                <a href="{% ifequal LANGUAGE_CODE|slice:"2" "fr" %}http://some.site/fr/{% else %}http://www.some.site/en/{% endifequal %}" target="_blank" rel="nofollow">{% trans "Privacy Policy" %}</a>
+                                <a href="{% if LANGUAGE_CODE|slice:"2" == "fr" %}http://some.site/fr/{% else %}http://www.some.site/en/{% endif %}" target="_blank" rel="nofollow">{% trans "Privacy Policy" %}</a>
                             </li>
 
 

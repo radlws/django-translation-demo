@@ -8,104 +8,105 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-22 20:27-0400\n"
+"POT-Creation-Date: 2024-02-23 16:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: django_locale_demo/settings.py:74
+#: django_locale_demo/settings.py:168
 msgid "English"
 msgstr "Angleis"
 
-#: django_locale_demo/settings.py:75
+#: django_locale_demo/settings.py:169
 msgid "French"
 msgstr "Francais"
 
-#: django_locale_demo/settings.py:76
+#: django_locale_demo/settings.py:170
 msgid "Polish"
 msgstr "Polaco"
 
-#: django_locale_demo/urls.py:17
-msgid "^dual-lang/"
+#: django_locale_demo/urls.py:27
+msgid "dual-lang/"
 msgstr ""
 
-#: duallang/models.py:11
+#: duallang/models.py:24
 msgid "name"
 msgstr "nombre"
 
-#: duallang/models.py:11
+#: duallang/models.py:24
 msgid "Name of the FAQ Topic"
 msgstr "nombre de la topico"
 
-#: duallang/models.py:12
+#: duallang/models.py:25
 msgid "slug"
 msgstr "slugo"
 
-#: duallang/models.py:13
+#: duallang/models.py:26
 msgid "text field test"
 msgstr "texto fieldo"
 
-#: duallang/models.py:13
+#: duallang/models.py:26
 msgid "This is a help text"
 msgstr "Esto help texto"
 
-#: duallang/models.py:20
+#: duallang/models.py:30
 msgid "faq topic"
 msgstr "FAQ Topico"
 
-#: duallang/models.py:21
+#: duallang/models.py:31
 msgid "faq topics"
 msgstr ""
 
-#: duallang/urls.py:7
+#: duallang/urls.py:6
 msgid "^dual_language/$"
 msgstr ""
 
-#: templates/base.html:9
+#: templates/base.html:8
 msgid "My Brand"
 msgstr "Mia Branda"
 
-#: templates/base.html:10
+#: templates/base.html:9
 msgid "Your Brand"
 msgstr "Tus Brandes"
 
-#: templates/base.html:35
+#: templates/base.html:34
 msgid "Stay Connected with us:"
 msgstr "Con conetdimor con amigos:"
 
-#: templates/base.html:38
+#: templates/base.html:37
 msgid "Facebook"
 msgstr ""
 
-#: templates/base.html:47
+#: templates/base.html:46
 msgid "Corporate Information"
 msgstr ""
 
-#: templates/base.html:50
+#: templates/base.html:49
 msgid "Privacy Policy"
 msgstr ""
 
-#: templates/base.html:55
+#: templates/base.html:54
 msgid "Another Translation - February 2012"
 msgstr ""
 
-#: templates/base.html:66
+#: templates/base.html:65
 msgid "&copy; 2014 COPYRIGHT"
 msgstr ""
 
-#: templates/dual_lang/landing.html:29
+#: templates/dual_lang/landing.html:28
 msgid "Top"
 msgstr ""
 
-#: templates/home/landing.html:10
+#: templates/home/landing.html:9
 msgid "This is a translation"
 msgstr "Tu est translation"
 
-#: templates/home/landing.html:11
+#: templates/home/landing.html:10
 #, python-format
 msgid ""
 "\n"
